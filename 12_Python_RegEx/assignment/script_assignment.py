@@ -1,6 +1,10 @@
 import re
 
+<<<<<<< HEAD
 file = open("./assignment_regex.txt")
+=======
+file = open("assignment_regex.txt")
+>>>>>>> b3f7c80 (Committing local changes before pulling from remote)
 total = 0
 for line in file:
     line = line.strip()
@@ -16,7 +20,11 @@ print(70 * "~", "\n")
 # -------------------------------------------------------------
 
 
+<<<<<<< HEAD
 file = open("./assignment_regex.txt")
+=======
+file = open("assignment_regex.txt")
+>>>>>>> b3f7c80 (Committing local changes before pulling from remote)
 total = 0
 numbers_list = list()
 for line in file:
@@ -38,4 +46,8 @@ print(70 * "~", "\n")
 
 #  [item for item in line_clean if item != ""]
 
+<<<<<<< HEAD
 print(sum([int(number) for number in re.findall('[0-9]+', open("./assignment_regex.txt").read())]))
+=======
+print(sum([int(number) for number in re.findall('[0-9]+', open("assignment_regex.txt").read())]))
+>>>>>>> b3f7c80 (Committing local changes before pulling from remote)
