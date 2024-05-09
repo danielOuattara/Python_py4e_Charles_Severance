@@ -1,11 +1,11 @@
 smallest = None
 print("Before:", smallest)
 
-for itervar in [3, 41, 12, 9, 74, 15]:
-    if smallest is None or itervar < smallest:
-        smallest = itervar
+for item in [3, 41, 12, 2, 9, 74, 1, 15]:
+    if smallest is None or item < smallest:
+        smallest = item
         #  break
-    print("Loop:", itervar, smallest)
+    print("Loop:", "item = ",item, ", smallest = ", smallest)
 print("Smallest:", smallest)
 
 print('---')
