@@ -3,7 +3,11 @@ import xml.etree.ElementTree as ET
 #  print(dir(ET))
 #  print(help(ET))
 
+<<<<<<< HEAD
 filename = open('./Library.xml')
+=======
+filename = open('Library.xml')
+>>>>>>> b3f7c80 (Committing local changes before pulling from remote)
 playlist = ET.parse(filename)
 all = playlist.findall('dict/dict/dict')
 

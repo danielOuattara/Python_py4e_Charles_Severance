@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/env" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="PythonGeeks" />
+    <orderEntry type="module" module-name="PYTHON" />
+    <orderEntry type="module" module-name="Socratica" />
+    <orderEntry type="module" module-name="Apprenez les bases du langage python" />
+    <orderEntry type="module" module-name="Apprenez_a_programmer_en_Python_Vincent_Le_Goff" />
+    <orderEntry type="module" module-name="Apprenez_la_PPO_Python_Mikael_Briolet" />
+    <orderEntry type="module" module-name="Decouvrez_la_POO_avec_Python_Celine_Sanchez" />
+    <orderEntry type="module" module-name="Decouvrez_la_poo_Python_Celine_Martinet" />
+    <orderEntry type="module" module-name="découvrez la poo avec python" />
+    <orderEntry type="module" module-name="démarrez votre projet avec python_CélineMartininetSanchez" />
+    <orderEntry type="module" module-name="Ecrivez_du_code_Python_maintenable" />
+    <orderEntry type="module" module-name="Mettez en place votre environnement Python_NicolasRangeon_GeorgeLambert" />
+    <orderEntry type="module" module-name="Perfectionnez-vous_en_Python" />
+    <orderEntry type="module" module-name="Utilisation_Avancee_des_listes_en_Python_Mathieu_Schaller" />
+    <orderEntry type="module" module-name="07_Scientific_Computing_With_Python" />
+  </component>
+</module>
