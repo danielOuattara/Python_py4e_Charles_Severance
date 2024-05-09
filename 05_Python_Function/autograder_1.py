@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-=======
-'''
->>>>>>> b3f7c80 (Committing local changes before pulling from remote)
+"""
+
 def compute_pay(hours, rate):
     hours = float(input('Enter yours worked hours : '))
     rate = float(input('Enter yours rate pay : '))
@@ -19,10 +17,8 @@ def compute_pay(hours, rate):
 
 p = compute_pay(10, 20)
 print("Pay", p)
-<<<<<<< HEAD
-=======
 
-'''
+"""
 
 
 def compute_pay():
@@ -42,4 +38,4 @@ def compute_pay():
 
 p = compute_pay()
 print("Pay", p)
->>>>>>> b3f7c80 (Committing local changes before pulling from remote)
+

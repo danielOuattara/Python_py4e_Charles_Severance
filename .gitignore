@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 lib64
 code3.zip
 *.cfg
@@ -12,5 +11,5 @@ env/lib64
 lib
 include
 ../code3
->>>>>>> b3f7c80 (Committing local changes before pulling from remote)
 bin
+env
