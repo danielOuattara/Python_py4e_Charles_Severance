@@ -3,7 +3,7 @@
 # name = input('Enter your name :')
 # print(name)
 
-# Looking Inside Strings
+# ----- Looking Inside Strings
 
 fruit = 'banana'
 second_letter = fruit[1]
@@ -13,20 +13,22 @@ x = 3
 w = fruit[x - 1]
 print(w)
 
-# String length
+# ----- String length
 
 fruit_length = len(fruit)
 print(fruit_length)
 
-# Looping through Strings
+# ----- Looping through Strings
 
 print(70 * '-')
 
+# This ONE
 for letter in fruit:
     print(letter)
 
-
 print(70 * '-')
+
+# OR This ONE
 i = 0
 while i < len(fruit):
     print(fruit[i])
