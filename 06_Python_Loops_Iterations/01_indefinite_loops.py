@@ -23,7 +23,9 @@ while True:
     line = input('> ')
     if line[0] == '#':
         continue
+    print("mid route")
     if line == 'done':
+        print("exiting")
         break
     print(line)
 print('Program Terminated')

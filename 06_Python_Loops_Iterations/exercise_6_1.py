@@ -1,6 +1,9 @@
+# Repetition
+
 numbers_sum = 0
 average = 0
 numbers_count = 0
+
 while True:
     line = input(' Enter a number: > ')
     if line == 'done':
