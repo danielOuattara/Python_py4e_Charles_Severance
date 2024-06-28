@@ -102,13 +102,13 @@ file_name = input("Enter the file name: ")
 print("-" * 3)
 try:
     file = open(file_name)
-except:
+except FileNotFoundError:
     print("File Not Found", file_name)
     quit()
 
 count = 0
 for line in file:
-    if "Line" in line:
+    if "Subject" in line:
         count += 1
 
 file.close()
@@ -116,3 +116,17 @@ file.close()
 print("count = ", count)
 
 print(70 * "-")
+
+# ------------- Check for prompted file name OPTIMIZED
+file_name = input("Enter the file name: ")
+print("-" * 3)
+
+try:
+    with open(file_name) as file:
+        # Count the number of lines containing "Subject"
+        subject_count = sum(1 for line in file if "Subject" in line)
+except FileNotFoundError:
+    print(f"File Not Found: {file_name}")
+    quit()
+
+print("count =", subject_count)
