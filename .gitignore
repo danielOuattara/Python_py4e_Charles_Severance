@@ -13,3 +13,6 @@ include
 ../code3
 bin
 env
+.idea
+.idea/
+__pycache__
