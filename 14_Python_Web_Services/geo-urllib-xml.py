@@ -4,16 +4,19 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 
+"""
+If you have a Google Places API key, enter it here
+api_key = 'AIzaSy___IDByT70'
+https://developers.google.com/maps/documentation/geocoding/intro
+
+"""
 api_key = False
-# If you have a Google Places API key, enter it here
-# api_key = 'AIzaSy___IDByT70'
-# https://developers.google.com/maps/documentation/geocoding/intro
 
 if api_key is False:
     api_key = 42
-    serviceurl = 'http://py4e-data.dr-chuck.net/xml?'
+    service_url = 'http://py4e-data.dr-chuck.net/xml?'
 else:
-    serviceurl = 'https://maps.googleapis.com/maps/api/geocode/xml?'
+    service_url = 'https://maps.googleapis.com/maps/api/geocode/xml?'
 
 # Ignore SSL certificate errors
 ctx = ssl.create_default_context()
@@ -29,7 +32,7 @@ while True:
     params['address'] = address
     params['key'] = api_key
 
-    url = serviceurl + urllib.parse.urlencode(params)
+    url = service_url + urllib.parse.urlencode(params)
     print('Retrieving', url)
     uh = urllib.request.urlopen(url, context=ctx)
 

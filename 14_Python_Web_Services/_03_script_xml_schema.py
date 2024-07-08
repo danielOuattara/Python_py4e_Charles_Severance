@@ -109,8 +109,8 @@ data = '''<stuff>
     </users>
 </stuff>'''
 
-stuff = ET.fromstring(data)
-lst = stuff.findall('users/user')
+tree_xml = ET.fromstring(data)
+lst = tree_xml.findall('users/user')
 print('User count:', len(lst))
 
 for item in lst:

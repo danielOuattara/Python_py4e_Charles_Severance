@@ -1,12 +1,12 @@
 import json
 
-print(dir(json))
-print(100 * '=')
+# for item in dir(json):
+#     print(item)
 
-print(help(json))
-print(70 * '=')
+# print(help(json))
 
 # --------------------------------------------------------------
+print('\n', 70 * '-')
 
 data = '''
 {
@@ -21,6 +21,7 @@ data = '''
    "age": 38
 }
 '''
+
 # json object TO python dictionary
 info = json.loads(data)
 
@@ -31,10 +32,11 @@ print('Name:', info["name"])
 print('Hide:', info["email"]["hide"])
 print('Age:', info["age"])
 
-print(70 * '=')
+print(70 * '-')
 # --------------------------------------------------------------
 
-data_2 = '''[
+data_2 = '''
+[
   { "id" : "001",
     "x" : "2",
     "name" : "Chuck"
@@ -43,7 +45,8 @@ data_2 = '''[
     "x" : "7",
     "name" : "Chuck"
   }
-]'''
+]
+'''
 
 info_2 = json.loads(data_2)
 
@@ -57,5 +60,5 @@ for item in info_2:
     print('Attribute', item['x'])
     print(5 * '-')
 
-print(70 * '=')
+print(70 * '-')
 # --------------------------------------------------------------

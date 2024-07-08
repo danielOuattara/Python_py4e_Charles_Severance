@@ -10,7 +10,7 @@ data = '''
   <age>38</age>
 </person>'''
 
-data_xml = ET.fromstring(data)
-print('Name:', data_xml.find('name').text)
-print('Attr:', data_xml.find('email').get('hide'))
-print('Age:', data_xml.find('age').text)
+tree_xml = ET.fromstring(data)
+print(f'Name: {tree_xml.find("name").text}')
+print(f'Attr: {tree_xml.find("email").get("hide")}')
+print(f'Age: {tree_xml.find("age").text}')
