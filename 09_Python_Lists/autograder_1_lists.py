@@ -11,3 +11,17 @@ for line in file:
 list_words.sort()
 print(list_words)
 
+# ----------------------------------------------------
+
+file_name = input("Enter file name: ")
+
+list_words = list()
+with open(file_name) as file:
+    for line in file:
+        words = line.strip().split()
+        for word in words:
+            if word not in list_words:
+                list_words.append(word)
+
+list_words.sort()
+print(list_words)
