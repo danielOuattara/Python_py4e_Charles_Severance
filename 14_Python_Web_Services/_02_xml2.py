@@ -3,7 +3,7 @@ import xml.etree.ElementTree as ET
 """ Handle list in XML """
 
 
-input = '''
+input = """
 <stuff>
   <users>
     <user x="2">
@@ -15,7 +15,8 @@ input = '''
       <name>Brent</name>
     </user>
   </users>
-</stuff>'''
+</stuff>
+"""
 
 tree_xml = ET.fromstring(input)
 print("tree_xml = ", tree_xml)

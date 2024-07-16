@@ -81,13 +81,13 @@ XSD Data Types
 
 import xml.etree.ElementTree as ET
 
-data = '''<person>
+data = """<person>
   <name>Chuck</name>
   <phone type="intl">
      +1 734 303 4456
    </phone>
    <email hide="yes"/>
-</person>'''
+</person>"""
 
 tree = ET.fromstring(data)
 print('Name:', tree.find('name').text)
@@ -96,7 +96,7 @@ print('Attr:', tree.find('email').get('hide'))
 print(70 * '-')
 # -----------------------------------------------
 
-data = '''<stuff>
+data = """<stuff>
     <users>
         <user x="2">
             <id>001</id>
@@ -107,13 +107,13 @@ data = '''<stuff>
             <name>Brent</name>
         </user>
     </users>
-</stuff>'''
+</stuff>"""
 
 tree_xml = ET.fromstring(data)
-lst = tree_xml.findall('users/user')
-print('User count:', len(lst))
+list = tree_xml.findall('users/user')
+print('User count:', len(list))
 
-for item in lst:
+for item in list:
     print('Name', item.find('name').text)
     print('Id', item.find('id').text)
     print('Attribute', item.get("x"))

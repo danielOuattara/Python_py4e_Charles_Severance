@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
 
-data = '''
+data = """
 <person>
   <name>Chuck</name>
   <phone type="intl">
@@ -8,7 +8,8 @@ data = '''
   </phone>
   <email hide="yes" />
   <age>38</age>
-</person>'''
+</person>
+"""
 
 tree_xml = ET.fromstring(data)
 print(f'Name: {tree_xml.find("name").text}')

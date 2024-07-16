@@ -1,6 +1,10 @@
 #  XML Validation
 
-To perform XML validation in Python, you can use the `lxml` library, which supports XML schema validation. Below is a Python code example that demonstrates how to validate an XML document against an XML Schema (XSD).
+To perform XML validation in Python, you can use the `lxml` library,
+which supports XML schema validation.
+
+Below is a Python code example that demonstrates how to validate an
+XML document against an XML Schema (XSD).
 
 ##  Step-by-Step Example
 

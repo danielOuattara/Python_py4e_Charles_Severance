@@ -8,7 +8,7 @@ import json
 # --------------------------------------------------------------
 print('\n', 70 * '-')
 
-data = '''
+data = """
 {
   "name" : "Chuck",
   "phone" : {
@@ -20,7 +20,7 @@ data = '''
    },
    "age": 38
 }
-'''
+"""
 
 # json object TO python dictionary
 info = json.loads(data)
@@ -35,7 +35,7 @@ print('Age:', info["age"])
 print(70 * '-')
 # --------------------------------------------------------------
 
-data_2 = '''
+data_2 = """
 [
   { "id" : "001",
     "x" : "2",
@@ -46,7 +46,7 @@ data_2 = '''
     "name" : "Chuck"
   }
 ]
-'''
+"""
 
 info_2 = json.loads(data_2)
 

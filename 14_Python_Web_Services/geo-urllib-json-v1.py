@@ -25,7 +25,7 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 while True:
-    address = input('Enter location: ')
+    address = input('Choose a location: ')
     if len(address) < 1:
         break
 
@@ -37,7 +37,7 @@ while True:
     print('Retrieving', url)
     url_open = urllib.request.urlopen(url, context=ctx)
     data = url_open.read().decode()
-    print('Retrieved', len(data), 'characters')
+    print('Retrieved ', len(data), 'characters')
 
     try:
         js = json.loads(data)
