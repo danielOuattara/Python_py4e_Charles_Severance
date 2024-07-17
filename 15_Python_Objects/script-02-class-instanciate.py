@@ -9,9 +9,9 @@ class PartyAnimal:
 an = PartyAnimal()
 
 an.party()
-an.party()
+an.party() 
 an.party()
 
-print(dir(PartyAnimal))
-print("Type", type(an))
-print("Dir ", dir(an))
+print('\n',dir(PartyAnimal), '\n')
+print("Type", type(an), '\n')
+print("Dir ", dir(an), '\n')
