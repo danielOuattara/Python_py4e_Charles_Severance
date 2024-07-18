@@ -3,11 +3,7 @@ import sqlite3
 
 filename = input('Enter file name: ')
 if len(filename) < 1:
-<<<<<<< HEAD
     filename = './tracks/Library.xml'
-=======
-    filename = 'tracks/Library.xml'
->>>>>>> b3f7c80 (Committing local changes before pulling from remote)
 
 try:
     playlist = ET.parse(filename)
