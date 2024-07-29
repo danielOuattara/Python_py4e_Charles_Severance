@@ -1,0 +1,107 @@
+{
+   "results" : 
+   [
+      {
+         "address_components" : 
+         [
+            {
+               "long_name" : "2",
+               "short_name" : "2",
+               "types" : 
+               [
+                  "street_number"
+               ]
+            },
+            {
+               "long_name" : "Piața Victoriei",
+               "short_name" : "Piața Victoriei",
+               "types" : 
+               [
+                  "route"
+               ]
+            },
+            {
+               "long_name" : "Timișoara",
+               "short_name" : "Timișoara",
+               "types" : 
+               [
+                  "locality",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Municipiu Timişoara",
+               "short_name" : "Municipiu Timişoara",
+               "types" : 
+               [
+                  "administrative_area_level_2",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Județul Timiș",
+               "short_name" : "TM",
+               "types" : 
+               [
+                  "administrative_area_level_1",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Romania",
+               "short_name" : "RO",
+               "types" : 
+               [
+                  "country",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "300006",
+               "short_name" : "300006",
+               "types" : 
+               [
+                  "postal_code"
+               ]
+            }
+         ],
+         "formatted_address" : "Piața Victoriei 2, Timișoara 300006, Romania",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 45.7536393,
+               "lng" : 21.2251614
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 45.7550932802915,
+                  "lng" : 21.2264354802915
+               },
+               "southwest" : 
+               {
+                  "lat" : 45.7523953197085,
+                  "lng" : 21.2237375197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJA1RC_YJdRUcRespStH-z6us",
+         "plus_code" : 
+         {
+            "compound_code" : "Q63G+F3 Timișoara, Romania",
+            "global_code" : "8GQ3Q63G+F3"
+         },
+         "types" : 
+         [
+            "establishment",
+            "point_of_interest",
+            "university"
+         ]
+      }
+   ],
+   "status" : "OK"
+}
