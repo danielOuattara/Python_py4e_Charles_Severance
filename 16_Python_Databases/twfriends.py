@@ -1,11 +1,8 @@
 import json
 import sqlite3
 import ssl
-<<<<<<< HEAD
 import urllib.error
 import urllib.parse
-=======
->>>>>>> b3f7c80 (Committing local changes before pulling from remote)
 import urllib.request
 
 import twurl
