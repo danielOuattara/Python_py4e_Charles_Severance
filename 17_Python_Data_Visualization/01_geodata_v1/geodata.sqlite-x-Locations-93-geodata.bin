@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Chepauk",
+               "short_name" : "Chepauk",
+               "types" : [ "political", "sublocality", "sublocality_level_2" ]
+            },
+            {
+               "long_name" : "Navalar Nagar",
+               "short_name" : "Navalar Nagar",
+               "types" : [ "political", "sublocality", "sublocality_level_3" ]
+            },
+            {
+               "long_name" : "Triplicane",
+               "short_name" : "Triplicane",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Chennai",
+               "short_name" : "Chennai",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Chennai",
+               "short_name" : "Chennai",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Tamil Nadu",
+               "short_name" : "TN",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "600005",
+               "short_name" : "600005",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Navalar Nagar, Chepauk, Triplicane, Chennai, Tamil Nadu 600005, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 13.0660293,
+               "lng" : 80.28317190000001
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 13.0673330302915,
+                  "lng" : 80.28483063029151
+               },
+               "southwest" : {
+                  "lat" : 13.0646350697085,
+                  "lng" : 80.2821326697085
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJlRxQu6FoUjoR3ndsYMUh9s0",
+         "plus_code" : {
+            "compound_code" : "378M+C7 Chennai, Tamil Nadu, India",
+            "global_code" : "7M52378M+C7"
+         },
+         "types" : [ "establishment", "point_of_interest", "university" ]
+      }
+   ],
+   "status" : "OK"
+}
