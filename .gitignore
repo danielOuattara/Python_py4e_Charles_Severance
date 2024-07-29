@@ -4,7 +4,6 @@ code3.zip
 lib
 include
 code3
-=======
 env/lib64
 ../code3.zip
 *.cfg
@@ -14,5 +13,7 @@ include
 bin
 env
 .idea
-.idea/
 __pycache__
+.idea/misc.xml
+.idea/modules.xml
+.idea/Python for Everybody (PY4E).iml
