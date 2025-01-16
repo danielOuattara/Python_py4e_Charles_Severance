@@ -1,9 +1,11 @@
+"""Tuples 1 """
+
 # print(help(tuple))
 
 users = ("Daniel", "Julie", "Gaia", "Amaya")
 print(users)
 
-# print all item in tuple
+# print all items in tuple
 for person in users:
     print(person)
 
@@ -29,8 +31,8 @@ print(y)
 print(50 * '~')
 
 (x, *y) = (4, "Moon", "cool")
-print(x)
-print(y)
+print(x)  # 4
+print(y)  # "Moon", "cool"
 
 print(50 * '~')
 
