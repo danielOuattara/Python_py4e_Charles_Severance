@@ -1,3 +1,6 @@
+"""Auto-grader 1"""
+
+
 file_name = input("Enter file name: ")
 file = open(file_name)
 list_words = list()
@@ -13,10 +16,13 @@ print(list_words)
 
 # ----------------------------------------------------
 
-file_name = input("Enter file name: ")
+try:
+    file_name = input("Enter file name: ")
+except FileNotFoundError as err:
+    print(err)
 
-list_words = list()
-with open(file_name) as file:
+list_words = []
+with open(file=file_name, encoding='utf-8') as file:
     for line in file:
         words = line.strip().split()
         for word in words:

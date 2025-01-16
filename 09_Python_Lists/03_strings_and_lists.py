@@ -1,3 +1,5 @@
+"""String and List"""
+
 print(70 * '-')
 
 # print(help(str))
@@ -8,8 +10,7 @@ abc = "With three words"
 print(abc)
 print(70 * '-')
 
-# split() method
-
+# split() method:
 abc_list = abc.split()
 
 print(abc_list)
@@ -53,6 +54,3 @@ print(new_line)
 print(len(new_line))
 
 print(70 * '-')
-
-
-

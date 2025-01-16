@@ -1,3 +1,5 @@
+""""Extract help content"""
+
 import io
 import sys
 
@@ -11,8 +13,9 @@ sys.stdout = sys.__stdout__
 help_str = help_str_io.getvalue()
 
 # Write the output to a file
-with open("str_help.txt", "w") as file:
+with open("help_str.txt", encoding='utf-8', mode="w",) as file:
     file.write(help_str)
+    file.close()
 
 """
 Changes made:

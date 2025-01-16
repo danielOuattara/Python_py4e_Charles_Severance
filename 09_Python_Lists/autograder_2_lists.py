@@ -1,3 +1,5 @@
+"""Auto-grader 2"""
+
 file_name = input("Enter file name: ")
 if len(file_name) < 1:
     file_name = "mail_box.txt"
@@ -21,7 +23,7 @@ if len(file_name) < 1:
     file_name = "mail_box.txt"
 count = 0
 
-with open(file_name) as file:
+with open(file=file_name, encoding='utf-8') as file:
     for line in file:
         if line.startswith("Author"):
             words = line.strip().split()

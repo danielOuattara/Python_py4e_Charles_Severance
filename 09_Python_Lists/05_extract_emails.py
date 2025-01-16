@@ -10,13 +10,22 @@ file = open('mail_box.txt')
 for line in file:
     if line.startswith("From"):
         email = line.strip().split()[1]
-        print(email)
+        parts = email.split('@')
+        print('email: ', email, ', domain:', parts[1])
+
 
 file.close()
 
-# ------------------------------------------ optimized
-# with open('mail_box.txt') as file:
-#     for line in file:
-#         if line.startswith("From "):
-#             email = line.split()[1]
-#             print(email)
+
+print(70 * '-')
+
+
+# --- BETTER : using 'with' for resource-allocating operations
+
+with open('mail_box.txt', encoding="utf-8") as file:
+    for line in file:
+        if line.startswith("From"):
+            email = line.strip().split()[1]
+            parts = email.split('@')
+            print('email: ', email, ', domain:', parts[1])
+    file.close()

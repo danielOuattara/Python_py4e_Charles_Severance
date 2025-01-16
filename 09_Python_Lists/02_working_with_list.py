@@ -1,15 +1,19 @@
+""" Working with lists """
+
 print(70 * '-')
 
 # Concatenating
 a = [1, 2, 3]
 b = [4, 5, 6]
 c = a + b
-print("c = ", c)
+print("c = ", c, '\n')
 
 # print(help(list))
 
+# extending `a` with `b`:
+print('extending a with b : ')
 a.extend(b)
-print("a = ", a)  # None ???
+print("a = ", a)  # OK
 
 print(70 * '-')
 
@@ -27,20 +31,20 @@ print(70 * '-')
 items = list()
 items.append("book")
 items.append(99)
-print(items)
+print("items = ", items)
 
 items.append("cookie")
-print(items)
+print("items = ", items)
 
 print(70 * '-')
 
-# in Operator
+# in Operator:
 numbers = [1, 2, 3, 4, 5]
 print(3 in numbers)
 print(7 in numbers)
 print(7 not in numbers)
 
-# Order lists
+# Order lists:
 items = ['book', 'western', 'cookie']
 items.sort()
 print(items)
@@ -51,8 +55,7 @@ print(numbers)
 print(70 * '-')
 
 
-# built-in functions and lists
-
+# built-in functions and lists:
 nums = [3, 41, 12, 9, 74, 15]
 print(len(nums))
 print(max(nums))
@@ -61,8 +64,23 @@ print(sum(nums))
 print(sum(nums)/len(nums))
 print(70 * '-')
 
-# Working with list: provide numbers and return average
 
+# Working with variable: provide numbers and return average
+
+total = 0
+count = 0
+while (True):
+    inp = input('Enter a number: ')
+    if inp == 'done':
+        break
+    value = float(inp)
+    total = total + value
+    count = count + 1
+average = total / count
+print('Average:', average)
+
+
+# Working with list: provide numbers and return average
 number_list = list()
 while True:
     input_value = input("Enter a number: ")

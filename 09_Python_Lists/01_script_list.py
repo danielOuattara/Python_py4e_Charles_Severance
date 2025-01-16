@@ -1,3 +1,5 @@
+"""List 01 """
+
 print(70 * '-')
 
 #  A List is a Kind Of Collection
@@ -9,7 +11,6 @@ prime_numbers = [2, 3, 5, 7]
 numbers_list = [1, 23, [3, 2], 4, 1, 4]
 
 # Lists & definite loops
-
 for friend in friends:
     print("Good morning", friend)
 
@@ -45,9 +46,23 @@ print(70 * '-')
 print(range(4))
 
 friends = ["Jo", "Glenn", "Sally"]
+
 for i in range(len(friends)):
     friend = friends[i]
     print("Hello", friend)
+
+print('---')
+# OR
+
+for friend in enumerate(friends):
+    print(friend)
+
+print('---')
+# OR (which is better)
+
+for i, friend in enumerate(friends):
+    print(i, friend)
+
 
 print(70 * '-')
 
