@@ -1,7 +1,10 @@
 """
 
-Dictionary literals use curly braces and have a list of key : value pairs
-You can make an empty dictionary using empty curly braces
+Dictionary literals use curly braces 
+and have a list of key/value pairs
+
+You can make an empty dictionary using 
+empty curly braces
 
 """
 

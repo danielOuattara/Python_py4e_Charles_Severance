@@ -1,3 +1,5 @@
+"""Dictionaries 1"""
+
 purse = dict()
 purse["money"] = 12
 purse["candy"] = "strawberry"
@@ -26,4 +28,3 @@ data_2["age"] += 3
 print(data_2)
 
 # =======================================================
-

@@ -1,8 +1,11 @@
+""" Counting using dictionaries """
+
 from collections import Counter
 
 # counting and outputting dictionary
 
-my_list = ["marquard", "cwen", "zhen", "csev", "zhen", "marquard", "marquard", "cwen", "zhen", "zhen"]
+my_list = ["marquard", "cwen", "zhen", "csev", "zhen",
+           "marquard", "marquard", "cwen", "zhen", "zhen"]
 
 # method 1 : linear reasoning, using 2 for loops
 
@@ -35,6 +38,7 @@ print("list_count_2 = ", list_count_2)
 list_count_3 = dict()
 for item in my_list:
     list_count_3[item] = list_count_3.get(item, 0) + 1
+    # print("list_count_3 = ", list_count_3)
 
 print("list_count_3 = ", list_count_3)
 
