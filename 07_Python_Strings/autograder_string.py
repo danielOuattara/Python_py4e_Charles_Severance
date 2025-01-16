@@ -7,4 +7,3 @@ print(piece)
 
 piece = text[column_pos + 1:].strip()
 print(piece)
-
