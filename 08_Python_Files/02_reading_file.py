@@ -1,3 +1,6 @@
+import sys
+
+
 print(70 * "-")
 
 # ----- File handle as a Sequence
@@ -13,7 +16,7 @@ file_handle = open("demo.txt")
 count = 0
 for line in file_handle:
     count += 1
-print("Line count : ", count)
+print("number of line(s) counted : ", count)
 
 file_handle.close()
 
@@ -46,8 +49,8 @@ print(70 * "-")
 # ----- Searching Through a File, remove newline if any
 file = open("demo.txt")
 for line in file:
+    line = line.rstrip()
     if line.startswith("Line"):
-        line = line.rstrip()
         print(line)
 
 file_handle.close()
@@ -83,7 +86,7 @@ file_handle.close()
 print(70 * "-")
 
 # ----- Prompt for File Name
-file_name = input("Enter the file name: ")
+file_name = input("Enter the file name (1): ")
 print("-" * 3)
 count = 0
 file = open(file_name)
@@ -98,13 +101,14 @@ file_handle.close()
 print(70 * "-")
 
 # ------ check For Prompted for File Name
-file_name = input("Enter the file name: ")
+file_name = input("Enter the file name (2): ")
 print("-" * 3)
 try:
-    file = open(file_name)
-except FileNotFoundError:
+    file = open(file_name)  # dangerous code
+except FileNotFoundError as err:
     print("File Not Found", file_name)
-    quit()
+    print(err)
+    sys.exit()
 
 count = 0
 for line in file:
@@ -118,7 +122,7 @@ print("count = ", count)
 print(70 * "-")
 
 # ------------- Check for prompted file name OPTIMIZED
-file_name = input("Enter the file name: ")
+file_name = input("Enter the file name (3): ")
 print("-" * 3)
 
 try:

@@ -8,7 +8,7 @@
 # file_handle = open("filename", "mode")
 
 # The newline Character: "\n", it's count for 1 character
-stuff = "Hello \nWorld of Python!"              
+stuff = "Hello \nWorld of Python!"
 print(stuff)
 print(len(stuff))
 
@@ -20,12 +20,3 @@ file_handle.close()
 #  When the file is missing: --> Traceback
 
 # File processing
-
-
-
-
-
-
-
-
-
