@@ -126,5 +126,5 @@ print('final', smallest_value)
 print(50 * '-')
 
 # The 'is' , 'is not' Operators
-print(0 == 0.0)
-# print(0 is 0.0)
+print(0 == 0.0)  # True
+print(0 is 0.0)  # False

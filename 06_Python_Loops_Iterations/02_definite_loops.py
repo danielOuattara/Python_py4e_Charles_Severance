@@ -19,5 +19,5 @@ print('---')
 
 # ---------------------------------------
 
-persons = [friend for friend in friends]
+persons = [friend.upper() for friend in friends]
 print(persons)

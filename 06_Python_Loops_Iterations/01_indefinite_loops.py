@@ -29,4 +29,3 @@ while True:
         break
     print(line)
 print('Program Terminated')
-

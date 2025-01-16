@@ -10,7 +10,8 @@ while True:
         break
     try:
         list_input.append(int(user_input))
-    except:
+    except ValueError:
+        print('Invalid input')
         continue
     valid_inputs = valid_inputs + 1
     for number in list_input:
