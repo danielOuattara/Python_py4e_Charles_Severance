@@ -1,10 +1,13 @@
+import sys
+
+
 def compute_pay_1(hours: int, rate: float):
     """
     This function take 2 parameters and return the pay amount.
     Caution: This function does not handle error in inputs
 
-    :param hours: int
-    :param rate: rate pay for an hour of work.
+    :param `hours`: int
+    :param `rate`: rate pay for an hour of work.
                  if the total number of worked hours exceed 40hrs,
                  then the rate is increased by 50%
     :return: the pay amount according to hours and rate

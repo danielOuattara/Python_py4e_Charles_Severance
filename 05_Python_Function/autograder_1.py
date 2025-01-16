@@ -38,4 +38,3 @@ def compute_pay():
 
 p = compute_pay()
 print("Pay", p)
-
