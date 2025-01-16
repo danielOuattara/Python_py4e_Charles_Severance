@@ -1,10 +1,3 @@
-import re
-
-print('----------------------------- upper')
-
-for item in dir(re):
-    print(item)
-
 """
 A
 ASCII
@@ -68,3 +61,11 @@ sub
 subn
 template
 """
+
+
+import re
+
+print('----------------------------- upper')
+
+for item in dir(re):
+    print(item)

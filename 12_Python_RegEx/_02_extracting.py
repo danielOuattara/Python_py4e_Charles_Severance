@@ -1,3 +1,5 @@
+""" Regular expression: extracting """
+
 import re
 
 # ----- Matching & extract
