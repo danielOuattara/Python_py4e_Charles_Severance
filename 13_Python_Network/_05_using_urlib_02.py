@@ -5,6 +5,8 @@ import urllib.error
 import urllib.request
 
 
+# ----- A simplest web browser
+
 def web_browser(url):
     try:
         with urllib.request.urlopen(url) as file_handle:
@@ -18,7 +20,7 @@ def web_browser(url):
     print('\n')
 
 
-# ----
+# ----- Treat it Like a file
 
 
 def web_browser_as_file(url):
@@ -47,7 +49,7 @@ def web_browser_as_file(url):
     print('\n')
 
 
-# ------
+# ----- Storing Web page
 
 
 def web_browser_write_to_file(url, output_file):
@@ -71,7 +73,7 @@ if __name__ == "__main__":
     # web_browser(url="http://data.pr4e.org/romeo.txt")
     # web_browser_as_file(url="http://data.pr4e.org/romeo.txt")
     web_browser_write_to_file(
-        url="https://www.youtube.com/",  output_file="result.html")
+        url="https://www.youtube.com/",  output_file="./result.html")
 
 
 """

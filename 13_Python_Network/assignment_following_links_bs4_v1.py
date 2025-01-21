@@ -15,9 +15,12 @@ def url_retriever(
 ):
     """
     This function returns an url from a specific position in a web page. 
-    By default, position=18, :param url: (str) url indicating the web page 
-    where to search, :param position: (int) indicates the position of the 
-    url to retrieve in the page, :return new_url : (str) the retrieved url
+    By default, position=18, 
+    :param url: (str) url indicating the web page 
+    where to search, 
+    :param position: (int) indicates the position of the 
+    url to retrieve in the page, 
+    :return new_url : (str) the retrieved url
     """
 
     res = urlopen(url, context=ctx).read()

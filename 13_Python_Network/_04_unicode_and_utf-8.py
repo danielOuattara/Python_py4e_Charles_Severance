@@ -1,6 +1,4 @@
-print(ord('H'))
-print(ord('e'))
-print(ord('\n'))
+
 
 """
 A byte consists of 8 bits. However, the history of ASCII and its 
@@ -326,3 +324,8 @@ Dec	Hex	Char	Description
 255	FF	ÿ	Latin small letter y with diaeresis
 
 """
+
+
+print(ord('H'))
+print(ord('e'))
+print(ord('\n'))

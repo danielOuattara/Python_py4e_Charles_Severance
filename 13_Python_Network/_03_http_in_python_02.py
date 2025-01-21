@@ -57,6 +57,7 @@ fetch_url("/page1.htm", "www.dr-chuck.com")
 """
 Key Improvements:
 ------------------
+
 1. Function for URL Fetching:
 - Encapsulated the logic in a function fetch_url to make it reusable.
 

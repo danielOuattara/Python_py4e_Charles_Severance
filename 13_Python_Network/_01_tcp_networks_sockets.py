@@ -1,15 +1,3 @@
-import socket
-
-# print(help(socket))
-
-
-my_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-print(my_sock)
-my_sock.connect(("data.pr4e.org", 80))
-
-
-for item in dir(socket):
-    print(item)
 
 """
 AF_ALG
@@ -439,6 +427,21 @@ socketpair
 sys
 timeout
 <socket.socket fd=3, family=2, type=1, proto=0, laddr=('0.0.0.0', 0)>
-
-
 """
+
+import socket
+
+# print(help(socket))
+
+
+my_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+print(my_sock)
+my_sock.connect(("data.pr4e.org", 80))
+
+#! NOTE:
+#! data.pr4e.org = host name
+#! 80 = port
+
+
+# for item in dir(socket):
+#     print(item)

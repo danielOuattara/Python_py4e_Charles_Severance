@@ -5,8 +5,6 @@ connect
 send
 receive
 close
-
-
 """
 
 import socket
@@ -26,7 +24,9 @@ while True:
         break
     print(data.decode())
 
+
 print('--------------------------------------------------------------')
+
 
 my_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 my_sock.connect(("www.dr-chuck.com", 80))

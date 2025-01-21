@@ -4,8 +4,11 @@ from bs4 import BeautifulSoup
 
 try:
     url = input("Enter URL:\n")
-    html = urllib.request.urlopen(url).read().decode('utf-8')
-    soup = BeautifulSoup(html, "html.parser")
+
+    # Use 'with' to manage the context of urlopen
+    with urllib.request.urlopen(url) as response:
+        html = response.read().decode('utf-8')
+        soup = BeautifulSoup(html, "html.parser")
 
     # Retrieve all the anchor tags
     tags = soup.find_all("a")
